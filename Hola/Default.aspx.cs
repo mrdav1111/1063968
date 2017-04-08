@@ -21,7 +21,7 @@ namespace Hola
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Write("hi stranger");
+            Response.Write("hi " + TextBox1.Text.ToString());
         }
     }
 }
