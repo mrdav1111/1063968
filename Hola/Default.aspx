@@ -10,6 +10,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Image ID="Image1" runat="server" Visible="False" />
+            <br />
             <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Home" Width="201px" />
             <br />
             Hola ,

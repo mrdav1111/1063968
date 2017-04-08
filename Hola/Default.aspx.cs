@@ -21,7 +21,9 @@ namespace Hola
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Write("hi " + TextBox1.Text.ToString());
+            Response.Write("hi " + TextBox1.Text.ToString()+" descubre la verdad");
+            Image1.ImageUrl = "https://pics.onsizzle.com/jesus-died-for-our-sins-harambe-died-for-our-memes-3195190.png";
+            Image1.Visible = true;
         }
 
         protected void Button2_Click(object sender, EventArgs e)
