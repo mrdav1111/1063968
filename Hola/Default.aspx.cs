@@ -23,5 +23,10 @@ namespace Hola
         {
             Response.Write("hi " + TextBox1.Text.ToString());
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
     }
 }
