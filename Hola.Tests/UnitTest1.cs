@@ -10,7 +10,7 @@ namespace Hola.Tests
         public void TestMethod1()
         {
             var p = new Default();
-            Assert.AreEqual(1, p.suma(1, 1));
+            Assert.AreEqual(2, p.suma(1, 1));
         }
     }
 }
