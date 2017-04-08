@@ -18,5 +18,10 @@ namespace Hola
         {
             return a +b;
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Write("hi stranger");
+        }
     }
 }
